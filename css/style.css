@@ -76,7 +76,7 @@
                 font-family: 'Quattrocento', serif;
                 text-align: center;
                 padding-top: 40px;
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-family: 'Nunito Sans', sans-serif;
             }
             
             .what-we-do .headings {
@@ -100,7 +100,7 @@
             .portfolio h2 {
                 text-align: center;
                 padding-top: 40px;
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-family: 'Nunito Sans', sans-serif;
             }
             
             #product,
@@ -138,7 +138,7 @@
                 text-align: center;
                 font-size: 30px;
                 padding-top: 50%;
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-family: 'Nunito Sans', sans-serif;
             }
             
             @media only screen and (max-width: 755px) {
