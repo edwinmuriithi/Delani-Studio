@@ -103,25 +103,6 @@
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
             
-            #portfolio {
-                display: flex;
-                flex-wrap: wrap;
-                align-items: center;
-                margin-left: 18%;
-                margin-right: 16%;
-            }
-            
-            .col-md-3 img {
-                max-width: 100%;
-                max-height: 100%;
-            }
-            
-            .portfolio h2 {
-                text-align: center;
-                padding-top: 40px;
-                font-family: 'Gabriela', serif;
-            }
-            
             #product,
             #development,
             #design {
@@ -157,7 +138,7 @@
                 text-align: center;
                 font-size: 30px;
                 padding-top: 50%;
-                font-family: 'Delius Swash Caps', cursive;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             }
             
             @media only screen and (max-width: 755px) {
@@ -176,7 +157,7 @@
                     padding-top: 20%;
                 }
                 .col-md-3 img {
-                    width: 100%px;
+                    width: 100px;
                     margin: 20px;
                 }
                 #portfolio {
