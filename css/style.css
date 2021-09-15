@@ -51,17 +51,16 @@
             
             .services {
                 text-align: center;
-                background-image: url("../images/backgrounds/s_image.jpg");
+                background-image: url("../images/assets/backgrounds/s_image.jpg");
                 color: white;
                 background-position: center;
                 background-size: cover;
                 background-repeat: no-repeat;
-                font-family: 'Copse', serif;
-                font-size: 18px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif font-size: 18px;
             }
             
             .services h2 {
-                font-family: 'Gabriela', serif;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
             }
             
             #services1 {
