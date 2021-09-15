@@ -10,7 +10,7 @@
                 background-repeat: no-repeat;
                 color: white;
                 text-align: center;
-                padding-top: 17%;
+                padding-top: 20%;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
             }
             
@@ -20,19 +20,19 @@
             }
             
             .landing p {
-                padding: 2px;
+                padding: 3px;
             }
             
             #logo {
-                margin-top: 12px;
-                margin-bottom: 24px;
+                margin-top: 15px;
+                margin-bottom: 25px;
                 width: 70px;
                 height: 70px;
                 ;
             }
             
             #mouse-click {
-                padding-top: 22px;
+                padding-top: 20px;
                 margin-top: 10%;
                 padding-bottom: 30px;
             }
@@ -48,6 +48,7 @@
             #about {
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
             }
+            /* SERVICES SECTION */
             
             .services {
                 text-align: center;
@@ -56,7 +57,8 @@
                 background-position: center;
                 background-size: cover;
                 background-repeat: no-repeat;
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif font-size: 18px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 20px;
             }
             
             .services h2 {
@@ -67,4 +69,16 @@
                 background-color: rgba(0, 0, 0, 0.4);
                 padding-top: 10%;
                 padding-bottom: 10%;
+            }
+            /* WHAT WE DO */
+            
+            .what-we-do {
+                font-family: 'Quattrocento', serif;
+                text-align: center;
+                padding-top: 40px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            
+            .what-we-do .headings {
+                padding-bottom: 35px;
             }
