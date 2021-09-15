@@ -91,3 +91,16 @@ $(document).ready(function() {
 //         $("#overlay8").hide();
 //     });
 // });
+
+// Contact Us JS
+$('.submit').click(function() {
+    var Name = $('#mce-FNAME').val();
+    var Email = $('#mce-EMAIL').val();
+    var Message = $('#mce-MESSAGE');
+
+    if (Name == '' || Email == '' || Message == '') {
+        alert('Please make sure you have filled in the form correctly!');
+    } else {
+        alert(' Hi ' + Name + ' We have received your message. Thank you for reaching out to us.');
+    }
+});
