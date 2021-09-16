@@ -93,14 +93,19 @@ $(document).ready(function() {
 // });
 
 // Contact Us JS
-$('.submit').click(function() {
-    var Name = $('#mce-FNAME').val();
-    var Email = $('#mce-EMAIL').val();
-    var Message = $('#mce-MESSAGE');
 
-    if (Name == '' || Email == '' || Message == '') {
-        alert('Please make sure you have filled in the form correctly!');
-    } else {
-        alert(' Hi ' + Name + ' We have received your message. Thank you for reaching out to us.');
-    }
+$(document).ready(function() {
+    $("form#formContact").submit(function(event) {
+
+        var name = $("input#fullName").val();
+        var email = $("input#eMail").val();
+        var message = $("textarea#comment").val();
+        if ($("input#fullName").val() && $("input#eMail").val()) {
+            alert(name + ", We have received your message. Thank you for reaching out to us.");
+        } else {
+            alert("Please enter your name and email!");
+        }
+
+    });
+
 });
